@@ -92,7 +92,7 @@ export default function Login() {
         <br>
         </br>
         <p>
-          ONLY ADMIN CAN ACESS TO DASHBOARD
+          Admin Login / only admin can acess to dashboard
         </p>
         <div className="mt-6 text-center text-sm text-gray-600">
         </div>
