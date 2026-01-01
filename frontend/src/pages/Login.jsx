@@ -48,7 +48,7 @@ export default function Login() {
             </label>
             <input
               type="email"
-              placeholder="contact@costrick.com"
+              placeholder="Admin, please enter email"
               value={creds.email}
               onChange={(e) =>
                 setCreds((p) => ({ ...p, email: e.target.value }))
@@ -65,7 +65,7 @@ export default function Login() {
             </label>
             <input
               type="password"
-              placeholder="6@RistolRd"
+              placeholder="Admin, please enter your password"
               value={creds.password}
               onChange={(e) =>
                 setCreds((p) => ({ ...p, password: e.target.value }))
@@ -92,7 +92,6 @@ export default function Login() {
         <div className="mt-6 text-center text-sm text-gray-600">
           <p>Only admin can access dashboard</p>
           <p className="mt-1 font-mono text-indigo-700">
-            contact@costrick.com / 6@RistolRd
           </p>
         </div>
       </div>
