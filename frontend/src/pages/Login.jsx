@@ -41,7 +41,7 @@ export default function Login() {
           Admin Login
         </h1>
          <p>ONLY ADMIN CAN ACESS TO DASHBOARD</p>
-      </br>
+       </br>
           <p className="mt-1 font-mono text-indigo-700">
           </p>
         <form onSubmit={handleSubmit} className="space-y-5">
