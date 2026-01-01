@@ -40,7 +40,9 @@ export default function Login() {
         <h1 className="text-3xl font-bold text-center text-indigo-800 mb-6">
           Admin Login
         </h1>
-
+         <p>Only admin can access to dashboard</p>
+          <p className="mt-1 font-mono text-indigo-700">
+          </p>
         <form onSubmit={handleSubmit} className="space-y-5">
           <div>
             <label className="block text-sm font-medium text-gray-700 mb-1">
@@ -48,7 +50,7 @@ export default function Login() {
             </label>
             <input
               type="email"
-              placeholder="Admin, please enter email"
+              placeholder="ENTER EMAIL"
               value={creds.email}
               onChange={(e) =>
                 setCreds((p) => ({ ...p, email: e.target.value }))
@@ -65,7 +67,7 @@ export default function Login() {
             </label>
             <input
               type="password"
-              placeholder="Admin, please enter your password"
+              placeholder="ENTER PASSWORD"
               value={creds.password}
               onChange={(e) =>
                 setCreds((p) => ({ ...p, password: e.target.value }))
@@ -90,9 +92,6 @@ export default function Login() {
         </form>
 
         <div className="mt-6 text-center text-sm text-gray-600">
-          <p>Only admin can access dashboard</p>
-          <p className="mt-1 font-mono text-indigo-700">
-          </p>
         </div>
       </div>
     </div>
