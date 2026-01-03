@@ -10,6 +10,7 @@ import {
 } from "lucide-react";
 
 import harryProfile from "../assets/profiles/harry.png";
+import dhanjProfile from "../assets/profiles/dhanraj.jpeg";
 
 export default function About() {
   const team = [
@@ -18,16 +19,21 @@ export default function About() {
       role: "CTO & CFO",
       img: harryProfile,
     },
-        // {
+    {
+      name: "Hemant Thapa",
+      role: "CEO & CMO",
+      img: dhanjProfile,
+    },
+    // {
     //   name: "Hemant Thapa",
     //   role: "CTO & CFO",
     //   img: "https://costrick.click/wp-content/uploads/2025/06/pexels-zahid-15392542-scaled.webp",
     // },
-    {
-      name: "Dhanraj Solanki",
-      role: "CEO & CMO",
-      img: "https://media.licdn.com/dms/image/v2/C4D03AQGeSI5AepCfaA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1581981200129?e=1769040000&v=beta&t=fSiPJMuM222I1n1owfNYXionK-f5BDxpLHngG9-HMvE",
-    },
+    // {
+    //   name: "Dhanraj Solanki",
+    //   role: "CEO & CMO",
+    //   img: "https://media.licdn.com/dms/image/v2/C4D03AQGeSI5AepCfaA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1581981200129?e=1769040000&v=beta&t=fSiPJMuM222I1n1owfNYXionK-f5BDxpLHngG9-HMvE",
+    // },
   ];
 
   return (
@@ -108,4 +114,3 @@ export default function About() {
     </div>
   );
 }
-
