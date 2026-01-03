@@ -51,7 +51,7 @@ export default function Login() {
               placeholder="Enter your email"
               value={creds.email}
               onChange={(e) =>
-                setCreds((p) => ({ ...p, email: e.target.value }))
+                setCreds((p) => ({ ...p, email: e.target.value.toLowerCase() }))
               }
               required
               disabled={loading}
