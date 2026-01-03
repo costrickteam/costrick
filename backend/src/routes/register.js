@@ -16,7 +16,6 @@ router.post("/", async (req, res) => {
     street,
     city,
     postalCode,
-    // country, // keep country commented for future use
     businessType,
     marketingOpt,
     favoriteItem,
@@ -30,7 +29,6 @@ router.post("/", async (req, res) => {
         user_first_name, user_last_name, user_email, user_phone,
         user_business_name, user_business_type,
         user_street, user_city, user_postal_code,
-        /* user_country, */
         user_marketing_opt, user_favorite_item, user_favorite_type
       ) VALUES (
         'user',
@@ -43,7 +41,6 @@ router.post("/", async (req, res) => {
         ${street},
         ${city},
         ${postalCode},
-        /* ${country}, */
         ${marketingOpt || false},
         ${favoriteItem || null},
         ${favoriteType || null}
@@ -63,20 +60,20 @@ router.post("/", async (req, res) => {
     if (e.code === "23505") {
       return res.status(400).json({ error: "Email already exists" });
     }
+    // Log full error for debugging
     console.error("Register error:", e);
-    res.status(500).json({ error: "Server error" });
+    res.status(500).json({ error: e.message || "Server error", details: e });
   }
 });
 
-// GET /api/register — Admin only
-router.get("/", protect, adminOnly, async (req, res) => {
+// GET /api/register — Public (for dashboard)
+router.get("/", async (req, res) => {
   try {
     const users = await sql`
-      SELECT 
+      SELECT
         user_uuid, user_first_name, user_last_name, user_email, user_phone,
         user_business_name, user_business_type,
         user_street, user_city, user_postal_code,
-        /* user_country, */
         user_marketing_opt, user_favorite_item, user_favorite_type, created_at
       FROM costrick_db
       WHERE role = 'user'
@@ -90,6 +87,3 @@ router.get("/", protect, adminOnly, async (req, res) => {
 });
 
 export default router;
-
-
-
