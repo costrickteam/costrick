@@ -18,7 +18,7 @@ export default function Dashboard() {
     user_business_name: "",
     user_business_type: "",
     user_city: "",
-    user_country: "",
+    // user_country: "",
     user_marketing_opt: "",
   });
 
@@ -218,6 +218,7 @@ export default function Dashboard() {
           }
           className="border rounded px-3 py-2"
         />
+        {/*
         <input
           type="text"
           placeholder="Country"
@@ -227,6 +228,7 @@ export default function Dashboard() {
           }
           className="border rounded px-3 py-2"
         />
+        */}
         <select
           value={filters.user_marketing_opt}
           onChange={(e) =>
@@ -321,6 +323,7 @@ export default function Dashboard() {
                       : "▼"
                     : null}
                 </th>
+                {/*
                 <th
                   className="px-4 py-3 cursor-pointer"
                   onClick={() => handleSort("user_country")}
@@ -332,6 +335,7 @@ export default function Dashboard() {
                       : "▼"
                     : null}
                 </th>
+                */}
                 <th
                   className="px-4 py-3 cursor-pointer"
                   onClick={() => handleSort("user_marketing_opt")}
@@ -383,7 +387,7 @@ export default function Dashboard() {
                     <br />
                     {user.user_city}, {user.user_postal_code}
                   </td>
-                  <td className="px-4 py-3">{user.user_country}</td>
+                  {/* <td className="px-4 py-3">{user.user_country}</td> */}
                   <td className="px-4 py-3 text-center">
                     {user.user_marketing_opt ? (
                       <span className="text-green-600 font-bold">Yes</span>
