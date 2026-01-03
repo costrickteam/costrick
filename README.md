@@ -1,32 +1,46 @@
-Costrick Company
-Our Services
+# Costrick 
 
-Welcome to Costrick, the innovative B2B platform designed to transform the way convenience stores in Scotland and beyond manage their stock ordering processes. Founded in 2023 by Dhanraj Solanki and Hemant Thapa, Costrick is headquartered in Glasgow and is on a mission to empower small businesses.
+[![Website](https://img.shields.io/badge/Website-Online-brightgreen)](https://www.costrick.com) 
+[![License](https://img.shields.io/badge/License-MIT-blue)]()
 
-Our goal is to simplify purchasing decisions, save retailers time and money, and promote sustainable practices that benefit both the environment and local economies.
+**Costrick** is an innovative B2B platform transforming how convenience stores in Scotland manage stock ordering. Founded in **2023** by **Dhanraj Solanki** and **Hemant Thapa**, and headquartered in Glasgow, our mission is to **save small retailers time and money** while promoting **sustainable and local-friendly practices**.  
 
-Free Comparison Shopping Engine (CSE)
+---
 
-At the heart of Costrick is our free Comparison Shopping Engine (CSE), built specifically for convenience stores. Our platform provides a one-stop solution to:
+## 🛒 Free Comparison Shopping Engine (CSE)  
+Our core service is a **free Comparison Shopping Engine** built for convenience stores. With Costrick, retailers can:  
 
-Compare prices across multiple local wholesalers
+- 🔹 Compare prices from multiple local wholesalers  
+- 🔹 Check stock availability in real-time  
+- 🔹 Access promotions and deals  
 
-Check stock availability in real-time
+> "Streamlining stock ordering, helping small stores operate efficiently and stay competitive."  
 
-Access ongoing promotions and deals
+---
 
-By streamlining the stock ordering process, Costrick addresses the inefficiencies that small retailers face when sourcing products. Leveraging cutting-edge technology and strategic partnerships with wholesalers, we deliver a service that is both innovative and practical, tailored to the unique needs of convenience stores in Scotland and beyond.
+## 💡 How We Create Value  
+- **Real-time data:** Access pricing, availability, and promotions from wholesalers like **Bookers** and **United Wholesale Limited**.  
+- **AI-driven insights:** Machine learning algorithms predict price trends to help plan stock purchases.  
+- **Save time & reduce costs:** Streamlined processes let retailers focus on running their stores.  
 
-Value Creation
+---
 
-Our platform is powered by a team of skilled web developers and machine learning engineers who make it easy for convenience stores to access real-time data on pricing, product availability, and promotions from wholesalers such as Bookers and United Wholesale Limited.
+## 🛠 Tech Stack & Features
+- 🌐 **Web platform:** User-friendly interface for convenience store owners  
+- 🤖 **AI/ML:** Price prediction and trend analysis  
+- 🤝 **Strategic partnerships:** Local wholesalers  
 
-Key benefits of our AI-driven platform:
+---
 
-Predictive analytics: Our algorithms analyze historical pricing data to forecast future trends, helping retailers plan stock purchases strategically.
+## 🌍 Our Mission
+**Simplifying stock ordering. Saving time and money. Supporting local businesses.**  
 
-Cost and time savings: Retailers can secure the best deals while reducing time spent on manual stock ordering.
+---
 
-Competitive advantage: Small convenience stores can remain competitive against larger national brands.
+## 📞 Contact
+- Website: [www.costrick.com](https://www.costrick.com)  
+- Email: support@costrick.com  
+- LinkedIn: [Costrick Company](https://www.linkedin.com/company/costrick)  
 
-Costrick is more than a platform—it’s a partner in helping small retailers thrive in a challenging market.
+---
+
