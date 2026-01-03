@@ -209,9 +209,9 @@ export default function Home() {
                 Hemant Thapa
               </h3>
               <p className="text-lg text-gray-700">
-                <strong>Phone:</strong> 07752 106 224
+                <strong>Email:</strong> team@costrick.click
                 <br />
-                <strong>Role:</strong> Business Development
+                <strong>Role:</strong> Co-Founder, CFO & CTO
               </p>
             </div>
             <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition">
@@ -219,9 +219,9 @@ export default function Home() {
                 Dhanraj Solanki
               </h3>
               <p className="text-lg text-gray-700">
-                <strong>Phone:</strong> 0141 959 1098 61
+                <strong>Email:</strong> contact@costrick.com
                 <br />
-                <strong>Role:</strong> Operations Lead
+                <strong>Role:</strong> Co-Founder, CEO, & CMO
               </p>
             </div>
           </div>
