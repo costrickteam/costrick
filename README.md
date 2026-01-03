@@ -18,14 +18,14 @@ Our core service is a **free Comparison Shopping Engine** built for convenience 
 
 ---
 
-## 💡 How We Create Value  
+##  How We Create Value  
 - **Real-time data:** Access pricing, availability, and promotions from wholesalers like **Bookers** and **United Wholesale Limited**.  
 - **AI-driven insights:** Machine learning algorithms predict price trends to help plan stock purchases.  
 - **Save time & reduce costs:** Streamlined processes let retailers focus on running their stores.  
 
 ---
 
-## 🛠 Tech Stack & Features
+##  Tech Stack & Features
 -  **Web platform:** User-friendly interface for convenience store owners  
 -  **ML:** Price prediction and trend analysis  
 -  **Strategic partnerships:** Local wholesalers  
