@@ -16,7 +16,7 @@ router.post("/", async (req, res) => {
     street,
     city,
     postalCode,
-    country,
+    // country, // keep country commented for future use
     businessType,
     marketingOpt,
     favoriteItem,
@@ -29,7 +29,8 @@ router.post("/", async (req, res) => {
         role,
         user_first_name, user_last_name, user_email, user_phone,
         user_business_name, user_business_type,
-        user_street, user_city, user_postal_code, user_country,
+        user_street, user_city, user_postal_code,
+        /* user_country, */
         user_marketing_opt, user_favorite_item, user_favorite_type
       ) VALUES (
         'user',
@@ -42,7 +43,7 @@ router.post("/", async (req, res) => {
         ${street},
         ${city},
         ${postalCode},
-        ${country},
+        /* ${country}, */
         ${marketingOpt || false},
         ${favoriteItem || null},
         ${favoriteType || null}
@@ -74,7 +75,8 @@ router.get("/", protect, adminOnly, async (req, res) => {
       SELECT 
         user_uuid, user_first_name, user_last_name, user_email, user_phone,
         user_business_name, user_business_type,
-        user_street, user_city, user_postal_code, user_country,
+        user_street, user_city, user_postal_code,
+        /* user_country, */
         user_marketing_opt, user_favorite_item, user_favorite_type, created_at
       FROM costrick_db
       WHERE role = 'user'
@@ -88,3 +90,6 @@ router.get("/", protect, adminOnly, async (req, res) => {
 });
 
 export default router;
+
+
+
