@@ -14,7 +14,6 @@ export default function Register() {
     street: "",
     city: "",
     postalCode: "",
-    // country: "",
     businessType: "Local Shop",
     marketingOpt: false,
   });
@@ -28,17 +27,16 @@ export default function Register() {
     e.preventDefault();
     try {
       await api.post("/register", {
-        first_name: form.firstName,
-        last_name: form.lastName,
+        firstName: form.firstName,
+        lastName: form.lastName,
         email: form.email,
         phone: form.phone,
-        business_name: form.businessName,
-        business_type: form.businessType,
+        businessName: form.businessName,
+        businessType: form.businessType,
         street: form.street,
         city: form.city,
-        postal_code: form.postalCode,
-        // country: form.country,
-        marketing_opt: form.marketingOpt,
+        postalCode: form.postalCode,
+        marketingOpt: form.marketingOpt,
       });
       alert("Registered successfully!");
       navigate("/login");
@@ -117,14 +115,7 @@ export default function Register() {
           required
           className="w-full border rounded-lg px-4 py-3"
         />
-        {/* <input
-          name="country"
-          placeholder="Country*"
-          value={form.country}
-          onChange={handleChange}
-          required
-          className="w-full border rounded-lg px-4 py-3"
-        /> */}
+        {/* Country field removed */}
 
         <select
           name="businessType"
