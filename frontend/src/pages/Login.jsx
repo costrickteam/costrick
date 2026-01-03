@@ -38,7 +38,7 @@ export default function Login() {
     <div className="min-h-screen bg-gray-50 flex items-center justify-center px-4">
       <div className="max-w-md w-full bg-white rounded-lg shadow-lg p-8">
         <h1 className="text-3xl font-bold text-center text-indigo-800 mb-6">
-          Admin Login
+          Costrick Admin Login
         </h1>
 
         <form onSubmit={handleSubmit} className="space-y-5">
@@ -48,7 +48,7 @@ export default function Login() {
             </label>
             <input
               type="email"
-              placeholder="contact@costrick.com"
+              placeholder="Enter your email"
               value={creds.email}
               onChange={(e) =>
                 setCreds((p) => ({ ...p, email: e.target.value }))
@@ -65,7 +65,7 @@ export default function Login() {
             </label>
             <input
               type="password"
-              placeholder="6@RistolRd"
+              placeholder="Enter your password"
               value={creds.password}
               onChange={(e) =>
                 setCreds((p) => ({ ...p, password: e.target.value }))
@@ -90,9 +90,9 @@ export default function Login() {
         </form>
 
         <div className="mt-6 text-center text-sm text-gray-600">
-          <p>Only admin can access dashboard</p>
+          <p>Only company administrator can access dashboard</p>
           <p className="mt-1 font-mono text-indigo-700">
-            contact@costrick.com / 6@RistolRd
+            All Wholesalers on single tab...
           </p>
         </div>
       </div>
