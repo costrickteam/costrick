@@ -98,7 +98,7 @@ export default function Dashboard() {
       "Street",
       "City",
       "Postal Code",
-      "Country",
+      // "Country",
       "Marketing Opt",
       "Registered On",
     ];
@@ -113,7 +113,7 @@ export default function Dashboard() {
       u.user_street,
       u.user_city,
       u.user_postal_code,
-      u.user_country,
+      // u.user_country,
       u.user_marketing_opt ? "Yes" : "No",
       new Date(u.created_at).toLocaleDateString(),
     ]);
