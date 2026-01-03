@@ -112,7 +112,7 @@ export default function Layout() {
       </main>
 
       {/* FOOTER */}
-      <footer className="bg-gray-800 text-white py-6 mt-12">
+      <footer className="bg-purple-600 text-white py-6 mt-12">
         <div className="max-w-7xl mx-auto text-center">
           <p>
             Copyright © 2025 Costrick Limited, Costrick is a private limited
