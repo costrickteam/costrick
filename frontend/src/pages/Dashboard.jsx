@@ -18,7 +18,6 @@ export default function Dashboard() {
     user_business_name: "",
     user_business_type: "",
     user_city: "",
-    // user_country: "",
     user_marketing_opt: "",
   });
 
