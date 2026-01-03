@@ -38,7 +38,7 @@ Our core service is a **free Comparison Shopping Engine** built for convenience 
 ---
 
 ##  Contact
-- Website: [www.costrick.com](https://www.costrick.uk)  
+- Website: [www.costrick.uk](https://www.costrick.uk)  
 - Email: contact@costrick.com  
 
 ---
