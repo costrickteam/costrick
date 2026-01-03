@@ -48,7 +48,7 @@ export default function Home() {
           </p>
           <div className="flex justify-center gap-4">
             <a
-              href="/register"
+              href="http://www.costrick.com/"
               className="bg-indigo-600 hover:bg-indigo-700 text-white font-bold px-8 py-4 rounded-full shadow-lg transition transform hover:-translate-y-1"
             >
               GET STARTED FREE
