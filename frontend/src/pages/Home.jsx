@@ -24,12 +24,12 @@ export default function Home() {
   return (
     <div className="bg-gradient-to-b from-indigo-50 via-white to-indigo-50">
       {/* Floating CTA */}
-      <a
+      {/* <a
         href="/register"
         className="fixed bottom-6 right-6 z-50 bg-indigo-600 hover:bg-indigo-700 text-white font-bold text-lg px-6 py-4 rounded-full shadow-2xl flex items-center gap-2 transition-all hover:scale-105"
       >
         SIGN UP
-      </a>
+      </a> */}
 
       {/* Hero */}
       <section className="relative overflow-hidden py-24">
