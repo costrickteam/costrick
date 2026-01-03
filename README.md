@@ -1,18 +1,18 @@
 # Costrick 
 
-[![Website](https://img.shields.io/badge/Website-Online-brightgreen)](https://www.costrick.com) 
+[![Website](https://img.shields.io/badge/Website-Online-brightgreen)](https://www.costrick.uk) 
 [![License](https://img.shields.io/badge/License-MIT-blue)]()
 
 **Costrick** is an innovative B2B platform transforming how convenience stores in Scotland manage stock ordering. Founded in **2023** by **Dhanraj Solanki** and **Hemant Thapa**, and headquartered in Glasgow, our mission is to **save small retailers time and money** while promoting **sustainable and local-friendly practices**.  
 
 ---
 
-## 🛒 Free Comparison Shopping Engine (CSE)  
+##  Free Comparison Shopping Engine (CSE)  
 Our core service is a **free Comparison Shopping Engine** built for convenience stores. With Costrick, retailers can:  
 
-- 🔹 Compare prices from multiple local wholesalers  
-- 🔹 Check stock availability in real-time  
-- 🔹 Access promotions and deals  
+-  Compare prices from multiple local wholesalers  
+-  Check stock availability in real-time  
+-  Access promotions and deals  
 
 > "Streamlining stock ordering, helping small stores operate efficiently and stay competitive."  
 
@@ -26,21 +26,20 @@ Our core service is a **free Comparison Shopping Engine** built for convenience 
 ---
 
 ## 🛠 Tech Stack & Features
-- 🌐 **Web platform:** User-friendly interface for convenience store owners  
-- 🤖 **AI/ML:** Price prediction and trend analysis  
-- 🤝 **Strategic partnerships:** Local wholesalers  
+-  **Web platform:** User-friendly interface for convenience store owners  
+-  **ML:** Price prediction and trend analysis  
+-  **Strategic partnerships:** Local wholesalers  
 
 ---
 
-## 🌍 Our Mission
+##  Our Mission
 **Simplifying stock ordering. Saving time and money. Supporting local businesses.**  
 
 ---
 
-## 📞 Contact
-- Website: [www.costrick.com](https://www.costrick.com)  
-- Email: support@costrick.com  
-- LinkedIn: [Costrick Company](https://www.linkedin.com/company/costrick)  
+##  Contact
+- Website: [www.costrick.com](https://www.costrick.uk)  
+- Email: contact@costrick.com  
 
 ---
 
