@@ -40,8 +40,7 @@ export default function Login() {
         <h1 className="text-3xl font-bold text-center text-indigo-800 mb-6">
           Admin Login
         </h1>
-          <p className="mt-1 font-mono text-indigo-700">
-          </p>
+
         <form onSubmit={handleSubmit} className="space-y-5">
           <div>
             <label className="block text-sm font-medium text-gray-700 mb-1">
@@ -49,7 +48,7 @@ export default function Login() {
             </label>
             <input
               type="email"
-              placeholder="ENTER EMAIL"
+              placeholder="contact@costrick.com"
               value={creds.email}
               onChange={(e) =>
                 setCreds((p) => ({ ...p, email: e.target.value }))
@@ -66,7 +65,7 @@ export default function Login() {
             </label>
             <input
               type="password"
-              placeholder="ENTER PASSWORD"
+              placeholder="6@RistolRd"
               value={creds.password}
               onChange={(e) =>
                 setCreds((p) => ({ ...p, password: e.target.value }))
@@ -89,12 +88,12 @@ export default function Login() {
             {loading ? "Logging in..." : "Login"}
           </button>
         </form>
-        <br>
-        </br>
-        <p>
-          Admin Login / only admin can acess to dashboard
-        </p>
+
         <div className="mt-6 text-center text-sm text-gray-600">
+          <p>Only admin can access dashboard</p>
+          <p className="mt-1 font-mono text-indigo-700">
+            contact@costrick.com / 6@RistolRd
+          </p>
         </div>
       </div>
     </div>
