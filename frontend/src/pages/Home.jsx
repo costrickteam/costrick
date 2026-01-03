@@ -20,12 +20,7 @@ export default function Home() {
     { name: "Digital Marketing for Wholesalers", icon: Megaphone },
     { name: "Waste Management Solutions", icon: Recycle },
   ];
-  // Disable right-click
-  useEffect(() => {
-    const handleContextMenu = (e) => e.preventDefault();
-    document.addEventListener("contextmenu", handleContextMenu);
-    return () => document.removeEventListener("contextmenu", handleContextMenu);
-  }, []);
+
   
   return (
     <div className="bg-gradient-to-b from-indigo-50 via-white to-indigo-50">
