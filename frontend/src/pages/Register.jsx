@@ -14,7 +14,7 @@ export default function Register() {
     street: "",
     city: "",
     postalCode: "",
-    country: "",
+    // country: "",
     businessType: "Local Shop",
     marketingOpt: false,
   });
@@ -27,7 +27,19 @@ export default function Register() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await api.post("/register", form);
+      await api.post("/register", {
+        first_name: form.firstName,
+        last_name: form.lastName,
+        email: form.email,
+        phone: form.phone,
+        business_name: form.businessName,
+        business_type: form.businessType,
+        street: form.street,
+        city: form.city,
+        postal_code: form.postalCode,
+        // country: form.country,
+        marketing_opt: form.marketingOpt,
+      });
       alert("Registered successfully!");
       navigate("/login");
     } catch (err) {
@@ -105,14 +117,14 @@ export default function Register() {
           required
           className="w-full border rounded-lg px-4 py-3"
         />
-        <input
+        {/* <input
           name="country"
           placeholder="Country*"
           value={form.country}
           onChange={handleChange}
           required
           className="w-full border rounded-lg px-4 py-3"
-        />
+        /> */}
 
         <select
           name="businessType"
