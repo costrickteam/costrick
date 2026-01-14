@@ -20,7 +20,7 @@ export default function About() {
       img: harryProfile,
     },
     {
-      name: "Hemant Thapa",
+      name: "Dhanraj Solanki",
       role: "CEO & CMO",
       img: dhanjProfile,
     },
