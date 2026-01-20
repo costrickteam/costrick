@@ -115,7 +115,7 @@ export default function Layout() {
       <footer className="bg-purple-600 text-white py-6 mt-12">
         <div className="max-w-7xl mx-auto text-center">
           <p>
-            Copyright © 2025 Costrick Limited, Costrick is a private limited
+            Copyright © 2023 Costrick Limited, Costrick is a private limited
             company registered in Scotland under company registration number
             SC806470. All rights reserved.
           </p>
