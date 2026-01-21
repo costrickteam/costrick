@@ -79,7 +79,7 @@ export default function About() {
             </div>
             <div>
               <img
-                src="https://costrick.click/wp-content/uploads/2022/02/business5-about-pic2.webp"
+                src="https://raw.githubusercontent.com/costrickteam/costrick/refs/heads/main/frontend/src/assets/images/office.webp"
                 alt="Costrick Team"
                 className="w-full rounded-2xl shadow-xl"
               />
