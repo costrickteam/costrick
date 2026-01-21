@@ -171,7 +171,7 @@ export default function Home() {
           <div className="grid md:grid-cols-2 gap-12">
             <div className="order-2 md:order-1">
               <img
-                src="https://costrick.click/wp-content/uploads/2025/06/glasgow-horse.webp"
+                src="https://raw.githubusercontent.com/costrickteam/costrick/refs/heads/main/frontend/src/assets/images/img_2.webp"
                 alt="Glasgow Office"
                 className="w-full rounded-2xl shadow-xl"
               />
@@ -184,7 +184,7 @@ export default function Home() {
                 <strong>6 Ristol Rd, Glasgow, G13 1UY</strong>
               </p>
               <img
-                src="https://costrick.click/wp-content/uploads/2025/06/pexels-jopwell-2422294-1200x848.webp"
+                src="https://raw.githubusercontent.com/costrickteam/costrick/refs/heads/main/frontend/src/assets/images/img_1.webp"
                 alt="Costrick Team"
                 className="w-full rounded-2xl shadow-xl"
               />
