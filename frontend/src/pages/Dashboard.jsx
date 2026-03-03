@@ -44,7 +44,7 @@ export default function Dashboard() {
   const filtered = users.filter((u) => {
     // Global search
     const globalMatch = Object.values(u).some((val) =>
-      val?.toString().toLowerCase().includes(search.toLowerCase())
+      val?.toString().toLowerCase().includes(search.toLowerCase()),
     );
     // Per-column filters
     for (const key in filters) {
@@ -134,7 +134,7 @@ export default function Dashboard() {
     <div className="p-6 max-w-7xl mx-auto">
       <div className="mb-4 flex flex-col md:flex-row md:items-center md:justify-between gap-4">
         <div className="flex items-center gap-2">
-          <Users className="w-6 h-6 text-indigo-600" />
+          <Users className="w-6 h-6 text-blue-600" />
           <h1 className="text-2xl font-bold">User Dashboard</h1>
         </div>
         <div className="flex gap-2">
@@ -147,7 +147,7 @@ export default function Dashboard() {
           />
           <button
             onClick={exportCSV}
-            className="flex items-center gap-1 bg-indigo-600 text-white px-4 py-2 rounded hover:bg-indigo-700"
+            className="flex items-center gap-1 bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700"
           >
             <Download className="w-4 h-4" /> Export CSV
           </button>
@@ -243,7 +243,7 @@ export default function Dashboard() {
       <div className="bg-white rounded-xl shadow-sm overflow-hidden">
         <div className="overflow-x-auto">
           <table className="w-full table-auto">
-            <thead className="bg-indigo-50 text-indigo-900 text-left text-sm font-semibold">
+            <thead className="bg-blue-50 text-blue-900 text-left text-sm font-semibold">
               <tr>
                 <th
                   className="px-4 py-3 cursor-pointer"
@@ -371,7 +371,7 @@ export default function Dashboard() {
                   <td className="px-4 py-3">
                     <a
                       href={`mailto:${user.user_email}`}
-                      className="text-indigo-600 hover:underline"
+                      className="text-blue-600 hover:underline"
                     >
                       {user.user_email}
                     </a>
